@@ -22,5 +22,12 @@
                 $this -> rating = "The film is realy ugly!!! ";
             }
         }
+
+        public function getRating(){
+            $this -> rating;
+        }
     }
-    
+
+    $film = new Movie("Titolo", "Descrizione del film", "Genere del fim");
+    $film -> setRating(5);
+?>
